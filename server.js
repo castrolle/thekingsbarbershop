@@ -7,8 +7,8 @@ Object.assign=require('object-assign')
 
 app.engine('html', require('ejs').renderFile);
 
-app.use('/assets', express.static(__dirname + '/assets'));
-app.use('/build', express.static(__dirname + '/build'));
+app.use('/assets', express.static(__dirname + '/views/assets'));
+app.use('/build', express.static(__dirname + '/views/build'));
 
 
 app.use(morgan('combined'))
