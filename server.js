@@ -10,7 +10,6 @@ app.engine('html', require('ejs').renderFile);
 app.use('/assets', express.static(__dirname + '/views/assets'));
 app.use('/build', express.static(__dirname + '/views/build'));
 
-
 app.use(morgan('combined'))
 
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
