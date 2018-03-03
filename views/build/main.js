@@ -177,7 +177,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"D:\development\ionic\ionic-thekingsbarbershop\src\pages\home\home.html"*/'<ion-content padding color="dark">\n  <h2>Welcome to The Kings Barber Shop</h2>\n  \n  <p>\n      Fabian Acosta \n    </p>\n\n  <p>\n    Reserva tu cita ya!!\n  </p>\n  \n  <!-- Real floating action button, fixed. It will not scroll with the content -->\n  <ion-fab right bottom>\n      <button ion-fab color="danger" (click)="showAlert()"><ion-icon name="add"></ion-icon></button>\n    </ion-fab>\n</ion-content>\n'/*ion-inline-end:"D:\development\ionic\ionic-thekingsbarbershop\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"D:\development\ionic\ionic-thekingsbarbershop\src\pages\home\home.html"*/'0\n<ion-content padding color="dark">\n    <ion-img class="logo" src="assets/imgs/banner2.png" bounds any></ion-img>\n  \n  <h2>Welcome to The Kings Barber Shop</h2>\n  \n  <p>\n      Fabian Acosta \n    </p>\n\n  <p>\n    Reserva tu cita ya!!\n  </p>\n  \n  <!-- Real floating action button, fixed. It will not scroll with the content -->\n  <ion-fab right bottom>\n      <button ion-fab color="danger" (click)="showAlert()"><ion-icon name="add"></ion-icon></button>\n    </ion-fab>\n</ion-content>\n'/*ion-inline-end:"D:\development\ionic\ionic-thekingsbarbershop\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], HomePage);

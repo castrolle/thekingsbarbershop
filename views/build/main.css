@@ -25677,3 +25677,19 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+page-home ion-content {
+  background-image: url("../assets/imgs/background.jpg");
+  background-size: cover !important;
+}
+
+page-home ion-title {
+  background-image: url("../assets/imgs/banner.png");
+  background-size: cover !important;
+}
+
+page-home .logo {
+  width: 50%;
+  height: 100%;
+  background: transparent !important;
+}
